@@ -1,0 +1,23 @@
+﻿  HW13.cpp
+C:\Users\Stanl\Downloads\HW13\HashedDictionary.h(135,13): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+  (編譯來源檔案 '../../../../../Downloads/HW13/HW13.cpp')
+  C:\Users\Stanl\Downloads\HW13\HashedDictionary.h(135,13):
+  範本具現化內容 (首先是最舊的) 是
+  	C:\Users\Stanl\Downloads\HW13\HW13.cpp(29,35):
+  	請參考正在進行編譯的 類別 樣板 具現化 'HashedDictionary<std::string,std::string>'
+  	C:\Users\Stanl\Downloads\HW13\HashedDictionary.h(49,1):
+  	編譯 類別 樣板 成員函式 'HashedDictionary<std::string,std::string>::HashedDictionary(int)' 期間
+  		C:\Users\Stanl\Downloads\HW13\HW13.cpp(29,46):
+  		請參閱 'main' 中 'HashedDictionary<std::string,std::string>::HashedDictionary' 的第一個參考
+  	C:\Users\Stanl\Downloads\HW13\HashedDictionary.h(134,1):
+  	編譯 類別 樣板 成員函式 'int HashedDictionary<std::string,std::string>::getHashIndex(const KeyType &)' 期間
+          with
+          [
+              KeyType=std::string
+          ]
+  		C:\Users\Stanl\Downloads\HW13\HashedDictionary.h(65,22):
+  		請參閱 'HashedDictionary<std::string,std::string>::add' 中 'HashedDictionary<std::string,std::string>::getHashIndex' 的第一個參考
+  		C:\Users\Stanl\Downloads\HW13\HW13.cpp(43,5):
+  		請參閱 'main' 中 'HashedDictionary<std::string,std::string>::add' 的第一個參考
+  
+  HW13.vcxproj -> C:\Users\Stanl\OneDrive\桌面\資料結構\HW13\x64\Debug\HW13.exe
